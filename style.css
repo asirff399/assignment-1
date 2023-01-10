@@ -1,0 +1,238 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ /* Header style */
+ header{
+    width: 1600px;
+    height: 808px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/banner/banner3.png'); 
+ }
+ .section-1{
+   text-align: right;
+   display: flex;
+   align-items: flex-end;
+ }
+ .header{
+   width: 525px;
+   height: 228px;
+   margin-left: 650px;
+   margin-bottom: 200px;
+}
+ 
+ .header-title{ 
+    font-weight: 700;
+    font-size: 65px;
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    margin-bottom: 24px;
+ }
+   
+ .header-content{  
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: end;
+    margin-bottom: 32px;
+ }
+ .header-btn{
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin-top: 30px;
+ }
+ /* Failures section left */
+ .section-2{
+   margin: 130px 320px;
+    width: 1072px;
+    height: 723.3px;
+   display: flex;
+   justify-content: space-between;
+ }
+ .section-2 .left img{
+   
+ }
+ /* Failures section right */
+ .section-2 .right{
+   margin-top:300px ;
+   width: 320px;
+ }
+ .failures-title{
+   font-family: 'work sans';
+   font-weight: 700;
+   font-size: 40px;
+   margin-bottom: 24px;
+   
+ }
+ .failures-description{
+   font-family: 'work sans';
+   font-weight: 400;
+   font-size: 16px;
+   color: #444343;
+   
+ }
+ .failures-list{
+   margin-top: 16px;
+    list-style: none;
+    
+ }
+ .failoures-list-items{
+   font-family: 'work sans';
+   font-weight: 400;
+   font-size: 16px;
+ }
+  /* Section-3 My plan style*/
+
+.section-3{
+  margin: 0 230px;
+  
+}
+.my-plan{
+      font-family:'Work Sans';
+      font-weight: 700;
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+}
+.plan-section{
+ display: flex;
+ justify-content:center;
+ gap: 150px;
+}
+.plan-img{
+   margin-left: 40px;
+}
+.plan-title{
+   font-family: 'Work Sans';
+   font-weight: 700;
+   font-size: 30px;
+   text-align: center;
+}
+.plan-description{
+   font-family: 'Work Sans';
+   font-weight: 500;
+   font-size: 25px;
+   text-align: center;
+   margin-bottom: 130px;
+}
+/* section-4 Handwatch style */
+.section-4{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 130px 230px;
+}
+.hand-watch{
+   width: 1140px;
+   height: 300px;
+  background-image: url('images/watch.png') ;
+  background-image: linear-gradien (to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1 ));
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.hand-watch-description{
+   font-family: 'Work Sans';
+   font-weight: 700;
+   font-size: 40px; 
+   color: #FFFFFF;
+   margin-bottom: 24px;
+   margin-left: 100px;
+}
+.call-btn{
+   color: #005FAC;
+   font-family: 'Work Sans';
+   font-weight: 600;
+   font-size: 20px;
+   padding: 20px 35px;
+   border-radius: 5px;
+   border: none;
+   margin-left: 100px;
+   
+  
+}
+/* footer section */
+.footer{
+   width: 1600px;
+   height: 577px;
+   background: hsl(0, 2%, 8%);
+   margin-top: 130px;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   gap: 300px;
+}
+.footer-left{
+   width: 475px;
+   height: 315px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.footer-left-title{
+   color: #F8F8F8;
+   font-family: 'Work Sans';
+   font-weight: 700;
+   font-size: 45px;
+   margin-bottom: 16px;
+}
+.footer-left-description{
+   color: #FFFFFF;
+   font-family: 'Work Sans';
+   font-weight: 400;
+   font-size: 16px;
+   margin-bottom: 24px;
+}
+.footer-email{
+   color: #FFFFFF;
+   font-family: 'Work Sans';
+   font-weight: 400;
+   font-size: 16px;
+   margin-bottom: 16px;
+}
+.footer-phone{
+   color: #FFFFFF;
+   font-family: 'Work Sans';
+   font-weight: 400;
+   font-size: 16px;
+   margin-bottom: 32px;
+}
+.footer-logo{
+   display: flex;
+   list-style: none;
+   gap: 15px;
+}
+.footer-right{
+  width: 325px;
+  height: 200px;
+}
+.footer-sub{
+   color: #FFFFFF;
+   font-family: 'Work Sans';
+   font-weight: 600;
+   font-size: 25px;
+   margin-bottom: 32px;
+}
+.footer-sub-email{
+   padding: 21px 158px 22px 21px;
+   background-color:black;
+   border: 1px solid #FFFFFF;
+   border-radius: 5px;
+   margin-bottom: 16px;
+}
+.footer-sub-btn{
+   padding: 20px 35px;
+   background-color: #005FAC;
+   border: none;
+   border-radius: 10px;
+}
